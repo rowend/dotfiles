@@ -1,14 +1,14 @@
 include /usr/local/share/nano/*.nanorc
+set tabsize 2
+set tabstospaces
+set trimblanks
+unset backup
 set constantshow
-set historylog
 set linenumbers
+set autoindent
+set historylog
 set nowrap
 set smooth
-set morespace
-set tabsize 4
-set tabstospaces
-set autoindent
-unset backup
 set showcursor
 set softwrap
-set trimblanks
+set morespace
