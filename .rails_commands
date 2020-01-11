@@ -1,2 +1,4 @@
 alias be="bundle exec"
 alias ber="bundle exec rails"
+alias bern="bundle exec rails new"
+alias bers="bundle exec rails s"
