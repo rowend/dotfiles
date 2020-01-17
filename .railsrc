@@ -1,0 +1,8 @@
+--skip-action-text
+--skip-active-storage
+--skip-action-cable
+--skip-sprockets
+--skip-turbolinks
+--skip-javascript
+--skip-webpack-install
+--skip-bundle
