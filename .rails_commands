@@ -21,6 +21,8 @@ alias berguploader="bundle exec rails g uploader"
 alias berduploader="bundle exec rails d uploader"
 alias bergtask="bundle exec rails g task"
 alias berdtask="bundle exec rails d task"
+alias bergmailer="bundle exec rails g mailer"
+alias berdmailer="bundle exec rails d mailer"
 
 alias berdbdrop="bundle exec rails db:drop"
 alias berdbcreate="bundle exec rails db:create"
