@@ -1,7 +1,9 @@
 alias b="bundle"
 alias be="b exec"
 alias ber="be rails"
+
 alias bern="ber new"
+alias berdbcreate="ber db:create"
 
 
 #alias bers="bundle exec rails server"
@@ -28,7 +30,6 @@ alias bern="ber new"
 #alias berdmailer="bundle exec rails delete mailer"
 
 #alias berdbdrop="bundle exec rails db:drop"
-#alias berdbcreate="bundle exec rails db:create"
 #alias berdbmigrate="bundle exec rails db:migrate"
 #alias berdbseed="bundle exec rails db:seed"
 #alias berdball="berdbdrop db:create db:migrate db:seed"
