@@ -1,5 +1,5 @@
 alias b="bundle"
-#alias be="bundle exec"
+alias be="b exec"
 #alias ber="bundle exec rails"
 #alias bern="bundle exec rails new"
 #alias bers="bundle exec rails server"
