@@ -4,6 +4,7 @@ alias ber="be rails"
 
 alias bern="ber new"
 alias berdbcreate="ber db:create"
+alias berg="ber g"
 
 
 #alias bers="bundle exec rails server"
