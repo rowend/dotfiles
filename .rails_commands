@@ -41,6 +41,7 @@ alias berdball="berdbdrop db:create db:migrate db:seed"
 alias berdbsetup="ber db:setup"
 alias berdbreset="ber db:reset"
 
-#alias berannotate="be annotate --models --exclude tests,fixtures"
-#alias berannotate="be annotate --exclude tests,fixtures,factories,serializers"
+alias beannotatemodels="be annotate --models"
+alias beannotateroutes="be annotate --routes"
+
 #alias bererd="bundle exec rails erd"
