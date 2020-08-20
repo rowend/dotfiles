@@ -41,12 +41,13 @@ alias berdbschemadump="ber db:schema:dump"
 alias berdbmigrate="ber db:migrate"
 alias berdbrollback="ber db:rollback"
 alias berdbmigrateredo="ber db:migrate:redo"
+
+alias berdbsetup="ber db:setup"
 alias berdbreset="ber db:reset"
 
 alias berdbseed="ber db:seed"
 alias berdball="berdbdrop db:create db:migrate db:seed"
 
-alias berdbsetup="ber db:setup"
 
 alias beannotatemodels="be annotate --models"
 alias beannotateroutes="be annotate --routes"
