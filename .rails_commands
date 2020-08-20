@@ -35,10 +35,15 @@ alias berdmailer="berd mailer"
 
 alias berdbcreate="ber db:create"
 alias berdbdrop="ber db:drop"
+
+alias berdbschemadump="ber db:schema:dump"
+
 alias berdbmigrate="ber db:migrate"
 alias berdbmigrate="ber db:rollback"
+
 alias berdbseed="ber db:seed"
 alias berdball="berdbdrop db:create db:migrate db:seed"
+
 alias berdbsetup="ber db:setup"
 alias berdbreset="ber db:reset"
 
