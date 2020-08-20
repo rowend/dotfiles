@@ -36,18 +36,19 @@ alias berdmailer="berd mailer"
 alias berdbcreate="ber db:create"
 alias berdbdrop="ber db:drop"
 
+# from database generates the schema.rb file
 alias berdbschemadump="ber db:schema:dump"
 
 alias berdbmigrate="ber db:migrate"
 alias berdbrollback="ber db:rollback"
 alias berdbmigrateredo="ber db:migrate:redo"
 
-alias berdbsetup="ber db:setup"
-alias berdbreset="ber db:reset"
-
 alias berdbseed="ber db:seed"
-alias berdball="berdbdrop db:create db:migrate db:seed"
 
+# db:create, load schema and db:seed
+alias berdbsetup="ber db:setup"
+# db:drop + db:setup
+alias berdbreset="ber db:reset"
 
 alias beannotatemodels="be annotate --models"
 alias beannotateroutes="be annotate --routes"
