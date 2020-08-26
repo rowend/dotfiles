@@ -39,6 +39,9 @@ alias berdbdrop="ber db:drop"
 # from database generates the schema.rb file
 alias berdbschemadump="ber db:schema:dump"
 
+# generate from database the structure.sql file
+alias berdbstructuredump="ber db:structure:dump"
+
 alias berdbmigrate="ber db:migrate"
 alias berdbmigrateup="ber db:migrate:up"
 alias berdbmigratedown="ber db:migrate:down"
