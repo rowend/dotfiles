@@ -47,6 +47,7 @@ alias berdbmigrateup="ber db:migrate:up"
 alias berdbmigratedown="ber db:migrate:down"
 alias berdbrollback="ber db:rollback"
 alias berdbmigrateredo="ber db:migrate:redo"
+alias berdbmigratestatus="ber db:migrate:status"
 
 alias berdbseed="ber db:seed"
 
