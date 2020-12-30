@@ -33,6 +33,9 @@ alias berdtask="berd task"
 alias bergmailer="berg mailer"
 alias berdmailer="berd mailer"
 
+alias bergpolicy="berg pundit:policy"
+alias berdpolicy="berd pundit:policy"
+
 alias berdbcreate="ber db:create"
 alias berdbdrop="ber db:drop"
 
